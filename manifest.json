@@ -1,6 +1,6 @@
 {
     "name": "GitCommunity",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Git Community",
     "content_scripts": [{
         "matches": ["https://*.github.com/*"],
