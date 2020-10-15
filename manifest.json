@@ -1,0 +1,20 @@
+{
+    "name": "GitCommunity",
+    "version": "1.0.1",
+    "description": "Git Community",
+    "content_scripts": [{
+        "matches": ["https://*.github.com/*"],
+        "js": ["main.js"]
+    }],
+    "permissions": [
+        "https://*.github.com/*"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_css": "popup_style.css"
+    },
+    "icons": {
+        "57": "icons/57x57.png"
+    },
+    "manifest_version": 2
+}
